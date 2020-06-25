@@ -77,8 +77,8 @@ ClassicEditor.defaultConfig = {
 			'underline',
 			'fontColor',
 			'highlight',
-			'indent',
 			'outdent',
+			'indent',
 			'bulletedList',
 			'numberedList'
 		]
