@@ -101,5 +101,11 @@ ClassicEditor.defaultConfig = {
 		]
 	},
 	// This value must be kept in sync with the language defined in webpack.config.js.
-	language: 'en'
+	language: 'en',
+	indentText: {
+		options: {
+			indentLength: 40,
+			indentMeasure: 'px'
+		}
+	}
 };
