@@ -32,6 +32,7 @@ import TextTransformation from '@ckeditor/ckeditor5-typing/src/texttransformatio
 import Underline from '@ckeditor/ckeditor5-basic-styles/src/underline';
 import FontColor from '@ckeditor/ckeditor5-font/src/fontcolor';
 import Highlight from '@ckeditor/ckeditor5-highlight/src/highlight';
+import IndentBlock from '@ckeditor/ckeditor5-indent/src/indentblock';
 
 export default class ClassicEditor extends ClassicEditorBase {}
 
@@ -52,6 +53,7 @@ ClassicEditor.builtinPlugins = [
 	ImageToolbar,
 	ImageUpload,
 	Indent,
+	IndentBlock,
 	Link,
 	List,
 	MediaEmbed,
