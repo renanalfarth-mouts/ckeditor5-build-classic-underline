@@ -32,6 +32,7 @@ import Underline from '@ckeditor/ckeditor5-basic-styles/src/underline';
 import FontColor from '@ckeditor/ckeditor5-font/src/fontcolor';
 import Highlight from '@ckeditor/ckeditor5-highlight/src/highlight';
 import IndentBlock from '@ckeditor/ckeditor5-indent/src/indentblock';
+import IndentTextPlugin from 'ckeditor5-indent-text/src/indent-text';
 
 export default class ClassicEditor extends ClassicEditorBase {}
 
@@ -62,7 +63,8 @@ ClassicEditor.builtinPlugins = [
 	TextTransformation,
 	Underline,
 	FontColor,
-	Highlight
+	Highlight,
+	IndentTextPlugin
 ];
 
 // Editor configuration.
@@ -77,6 +79,8 @@ ClassicEditor.defaultConfig = {
 			'highlight',
 			'outdent',
 			'indent',
+			'indentLeft',
+			'indentRight',
 			'bulletedList',
 			'numberedList'
 		]

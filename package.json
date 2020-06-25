@@ -96,6 +96,7 @@
     }
   },
   "dependencies": {
-    "@ckeditor/ckeditor5-highlight": "^19.0.1"
+    "@ckeditor/ckeditor5-highlight": "^19.0.1",
+    "ckeditor5-indent-text": "^1.0.12"
   }
 }
